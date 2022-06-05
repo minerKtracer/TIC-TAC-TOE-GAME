@@ -48,7 +48,7 @@
             // FB1
             // 
             this.FB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FB1.Location = new System.Drawing.Point(24, 53);
+            this.FB1.Location = new System.Drawing.Point(24, 47);
             this.FB1.Name = "FB1";
             this.FB1.Size = new System.Drawing.Size(74, 70);
             this.FB1.TabIndex = 0;
@@ -58,7 +58,7 @@
             // FB2
             // 
             this.FB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FB2.Location = new System.Drawing.Point(104, 53);
+            this.FB2.Location = new System.Drawing.Point(104, 47);
             this.FB2.Name = "FB2";
             this.FB2.Size = new System.Drawing.Size(74, 70);
             this.FB2.TabIndex = 1;
@@ -68,7 +68,7 @@
             // FB3
             // 
             this.FB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FB3.Location = new System.Drawing.Point(184, 53);
+            this.FB3.Location = new System.Drawing.Point(184, 47);
             this.FB3.Name = "FB3";
             this.FB3.Size = new System.Drawing.Size(74, 70);
             this.FB3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // SB1
             // 
             this.SB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SB1.Location = new System.Drawing.Point(24, 129);
+            this.SB1.Location = new System.Drawing.Point(24, 123);
             this.SB1.Name = "SB1";
             this.SB1.Size = new System.Drawing.Size(74, 70);
             this.SB1.TabIndex = 3;
@@ -88,7 +88,7 @@
             // SB2
             // 
             this.SB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SB2.Location = new System.Drawing.Point(104, 129);
+            this.SB2.Location = new System.Drawing.Point(104, 123);
             this.SB2.Name = "SB2";
             this.SB2.Size = new System.Drawing.Size(74, 70);
             this.SB2.TabIndex = 4;
@@ -98,7 +98,7 @@
             // SB3
             // 
             this.SB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SB3.Location = new System.Drawing.Point(184, 129);
+            this.SB3.Location = new System.Drawing.Point(184, 123);
             this.SB3.Name = "SB3";
             this.SB3.Size = new System.Drawing.Size(74, 70);
             this.SB3.TabIndex = 5;
@@ -108,7 +108,7 @@
             // TB1
             // 
             this.TB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB1.Location = new System.Drawing.Point(24, 205);
+            this.TB1.Location = new System.Drawing.Point(24, 199);
             this.TB1.Name = "TB1";
             this.TB1.Size = new System.Drawing.Size(74, 70);
             this.TB1.TabIndex = 6;
@@ -118,7 +118,7 @@
             // TB2
             // 
             this.TB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB2.Location = new System.Drawing.Point(104, 205);
+            this.TB2.Location = new System.Drawing.Point(104, 199);
             this.TB2.Name = "TB2";
             this.TB2.Size = new System.Drawing.Size(74, 70);
             this.TB2.TabIndex = 7;
@@ -128,7 +128,7 @@
             // TB3
             // 
             this.TB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB3.Location = new System.Drawing.Point(184, 205);
+            this.TB3.Location = new System.Drawing.Point(184, 199);
             this.TB3.Name = "TB3";
             this.TB3.Size = new System.Drawing.Size(74, 70);
             this.TB3.TabIndex = 8;
@@ -142,7 +142,7 @@
             this.AMenu1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(284, 25);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -150,20 +150,25 @@
             // 
             this.File1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Extmenu1});
+            this.File1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.File1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.File1.Name = "File1";
-            this.File1.Size = new System.Drawing.Size(37, 20);
+            this.File1.Size = new System.Drawing.Size(42, 21);
             this.File1.Text = "File";
             // 
             // AMenu1
             // 
             this.AMenu1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.GInfo1});
+            this.AMenu1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AMenu1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.AMenu1.Name = "AMenu1";
-            this.AMenu1.Size = new System.Drawing.Size(52, 20);
+            this.AMenu1.Size = new System.Drawing.Size(58, 21);
             this.AMenu1.Text = "About";
             // 
             // GInfo1
             // 
+            this.GInfo1.ForeColor = System.Drawing.Color.Orange;
             this.GInfo1.Name = "GInfo1";
             this.GInfo1.Size = new System.Drawing.Size(152, 22);
             this.GInfo1.Text = "Game Info";
@@ -171,6 +176,7 @@
             // 
             // Extmenu1
             // 
+            this.Extmenu1.ForeColor = System.Drawing.Color.Orange;
             this.Extmenu1.Name = "Extmenu1";
             this.Extmenu1.Size = new System.Drawing.Size(152, 22);
             this.Extmenu1.Text = "Exit";
