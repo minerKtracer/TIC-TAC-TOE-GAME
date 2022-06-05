@@ -1,1 +1,9 @@
 C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\bin\Debug\MY TIC TAC TOE.exe.config
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\bin\Debug\MY TIC TAC TOE.exe
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\bin\Debug\MY TIC TAC TOE.pdb
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\obj\Debug\MY TIC TAC TOE.csprojResolveAssemblyReference.cache
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\obj\Debug\MY_TIC_TAC_TOE.MainFORM1.resources
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\obj\Debug\MY_TIC_TAC_TOE.Properties.Resources.resources
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\obj\Debug\MY TIC TAC TOE.csproj.GenerateResource.Cache
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\obj\Debug\MY TIC TAC TOE.exe
+C:\Users\kylene shane varona\Desktop\ASSIGN 2\MY TIC TAC TOE\MY TIC TAC TOE\obj\Debug\MY TIC TAC TOE.pdb
