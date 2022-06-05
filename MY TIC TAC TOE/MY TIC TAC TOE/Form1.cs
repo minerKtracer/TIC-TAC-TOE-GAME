@@ -40,12 +40,22 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + FB1.Text);
                     }
                }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
                 if (FB1.Text == FB2.Text)
                 {
                     if (FB2.Text == FB3.Text)
                     {
                         MessageBox.Show("The winner is " + FB1.Text);
                     }
+                }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
                 }
                 if (FB1.Text == SB2.Text)
                 {
@@ -83,6 +93,11 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + FB2.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
                 if (FB2.Text == FB1.Text)
                 {
                     if (FB1.Text == FB3.Text)
@@ -119,12 +134,22 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + FB3.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
                 if (FB3.Text == FB2.Text)
                 {
                     if (FB2.Text == FB1.Text)
                     {
                         MessageBox.Show("The winner is " + FB3.Text);
                     }
+                }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
                 }
                 if (FB3.Text == SB2.Text)
                 {
@@ -162,6 +187,11 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + SB1.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
                 if (SB1.Text == FB1.Text)
                 {
                     if (FB1.Text == TB1.Text)
@@ -197,6 +227,11 @@ namespace MY_TIC_TAC_TOE
                     {
                         MessageBox.Show("The winner is " + SB2.Text);
                     }
+                }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
                 }
                 if (SB2.Text == FB2.Text)
                 {
@@ -234,6 +269,11 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + SB3.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
                 if (SB3.Text == FB3.Text)
                 {
                     if (FB3.Text == TB3.Text)
@@ -270,12 +310,22 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + TB1.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
                 if (TB1.Text == SB2.Text)
                 {
                     if (SB2.Text == FB3.Text)
                     {
                         MessageBox.Show("The winner is " + TB1.Text);
                     }
+                }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
                 }
                 if (TB1.Text == TB2.Text)
                 {
@@ -312,6 +362,11 @@ namespace MY_TIC_TAC_TOE
                     {
                         MessageBox.Show("The winner is " + TB2.Text);
                     }
+                }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
                 }
                 if (TB2.Text == TB1.Text)
                 {
@@ -350,12 +405,22 @@ namespace MY_TIC_TAC_TOE
                     MessageBox.Show("The winner is " + TB3.Text);
                 }
             }
+            else
+            {
+                if (turn_count == 9)
+                    MessageBox.Show("Draw!", "Bummer!");
+            }
             if (TB3.Text == SB2.Text)
             {
                 if (SB2.Text == FB1.Text)
                 {
                     MessageBox.Show("The winner is " + TB3.Text);
                 }
+            }
+            else
+            {
+                if (turn_count == 9)
+                    MessageBox.Show("Draw!", "Bummer!");
             }
             if (TB3.Text == TB2.Text)
             {
