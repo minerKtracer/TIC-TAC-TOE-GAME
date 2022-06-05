@@ -47,6 +47,7 @@
             this.FB1.Size = new System.Drawing.Size(74, 70);
             this.FB1.TabIndex = 0;
             this.FB1.UseVisualStyleBackColor = true;
+            this.FB1.Click += new System.EventHandler(this.FB1_Click);
             // 
             // FB2
             // 
@@ -56,6 +57,7 @@
             this.FB2.Size = new System.Drawing.Size(74, 70);
             this.FB2.TabIndex = 1;
             this.FB2.UseVisualStyleBackColor = true;
+            this.FB2.Click += new System.EventHandler(this.FB2_Click);
             // 
             // FB3
             // 
@@ -65,6 +67,7 @@
             this.FB3.Size = new System.Drawing.Size(74, 70);
             this.FB3.TabIndex = 2;
             this.FB3.UseVisualStyleBackColor = true;
+            this.FB3.Click += new System.EventHandler(this.FB3_Click);
             // 
             // SB1
             // 
@@ -74,6 +77,7 @@
             this.SB1.Size = new System.Drawing.Size(74, 70);
             this.SB1.TabIndex = 3;
             this.SB1.UseVisualStyleBackColor = true;
+            this.SB1.Click += new System.EventHandler(this.SB1_Click);
             // 
             // SB2
             // 
@@ -83,6 +87,7 @@
             this.SB2.Size = new System.Drawing.Size(74, 70);
             this.SB2.TabIndex = 4;
             this.SB2.UseVisualStyleBackColor = true;
+            this.SB2.Click += new System.EventHandler(this.SB2_Click);
             // 
             // SB3
             // 
@@ -92,6 +97,7 @@
             this.SB3.Size = new System.Drawing.Size(74, 70);
             this.SB3.TabIndex = 5;
             this.SB3.UseVisualStyleBackColor = true;
+            this.SB3.Click += new System.EventHandler(this.SB3_Click);
             // 
             // TB1
             // 
@@ -101,6 +107,7 @@
             this.TB1.Size = new System.Drawing.Size(74, 70);
             this.TB1.TabIndex = 6;
             this.TB1.UseVisualStyleBackColor = true;
+            this.TB1.Click += new System.EventHandler(this.TB1_Click);
             // 
             // TB2
             // 
@@ -110,6 +117,7 @@
             this.TB2.Size = new System.Drawing.Size(74, 70);
             this.TB2.TabIndex = 7;
             this.TB2.UseVisualStyleBackColor = true;
+            this.TB2.Click += new System.EventHandler(this.TB2_Click);
             // 
             // TB3
             // 
@@ -119,6 +127,7 @@
             this.TB3.Size = new System.Drawing.Size(74, 70);
             this.TB3.TabIndex = 8;
             this.TB3.UseVisualStyleBackColor = true;
+            this.TB3.Click += new System.EventHandler(this.TB3_Click);
             // 
             // MainFORM1
             // 
