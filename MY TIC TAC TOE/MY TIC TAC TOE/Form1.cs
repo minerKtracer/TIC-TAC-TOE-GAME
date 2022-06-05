@@ -20,118 +20,145 @@ namespace MY_TIC_TAC_TOE
 
         private void FB1_Click(object sender, EventArgs e)
         {
-            FB1.Text = turn.ToString();
-            if (turn == 'X')
+            if (FB1.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                FB1.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void FB2_Click(object sender, EventArgs e)
         {
-            FB2.Text = turn.ToString();
-            if (turn == 'X')
+            if (FB2.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                FB2.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void FB3_Click(object sender, EventArgs e)
         {
-            FB3.Text = turn.ToString();
-            if (turn == 'X')
+            if (FB3.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                FB3.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void SB1_Click(object sender, EventArgs e)
         {
-            SB1.Text = turn.ToString();
-            if (turn == 'X')
+            if (SB1.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                SB1.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void SB2_Click(object sender, EventArgs e)
         {
-            SB2.Text = turn.ToString();
-            if (turn == 'X')
+            if (SB2.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                SB2.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void SB3_Click(object sender, EventArgs e)
         {
-            SB3.Text = turn.ToString();
-            if (turn == 'X')
+            if (SB3.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                SB3.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void TB1_Click(object sender, EventArgs e)
         {
-            TB1.Text = turn.ToString();
-            if (turn == 'X')
+            if (TB1.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                TB1.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void TB2_Click(object sender, EventArgs e)
         {
-            TB2.Text = turn.ToString();
-            if (turn == 'X')
+            if (TB2.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                TB2.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void TB3_Click(object sender, EventArgs e)
         {
-            TB3.Text = turn.ToString();
-            if (turn == 'X')
+            if (TB3.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                TB3.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
     }
