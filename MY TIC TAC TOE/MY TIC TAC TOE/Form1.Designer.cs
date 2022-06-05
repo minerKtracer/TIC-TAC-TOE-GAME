@@ -37,6 +37,12 @@
             this.TB1 = new System.Windows.Forms.Button();
             this.TB2 = new System.Windows.Forms.Button();
             this.TB3 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.File1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.AMenu1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.GInfo1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Extmenu1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // FB1
@@ -129,6 +135,47 @@
             this.TB3.UseVisualStyleBackColor = true;
             this.TB3.Click += new System.EventHandler(this.TB3_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.File1,
+            this.AMenu1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.TabIndex = 9;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // File1
+            // 
+            this.File1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Extmenu1});
+            this.File1.Name = "File1";
+            this.File1.Size = new System.Drawing.Size(37, 20);
+            this.File1.Text = "File";
+            // 
+            // AMenu1
+            // 
+            this.AMenu1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.GInfo1});
+            this.AMenu1.Name = "AMenu1";
+            this.AMenu1.Size = new System.Drawing.Size(52, 20);
+            this.AMenu1.Text = "About";
+            // 
+            // GInfo1
+            // 
+            this.GInfo1.Name = "GInfo1";
+            this.GInfo1.Size = new System.Drawing.Size(152, 22);
+            this.GInfo1.Text = "Game Info";
+            this.GInfo1.Click += new System.EventHandler(this.GInfo1_Click);
+            // 
+            // Extmenu1
+            // 
+            this.Extmenu1.Name = "Extmenu1";
+            this.Extmenu1.Size = new System.Drawing.Size(152, 22);
+            this.Extmenu1.Text = "Exit";
+            this.Extmenu1.Click += new System.EventHandler(this.Extmenu1_Click);
+            // 
             // MainFORM1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,11 +190,16 @@
             this.Controls.Add(this.FB3);
             this.Controls.Add(this.FB2);
             this.Controls.Add(this.FB1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "MainFORM1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MY TIC TAC TOE";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -162,6 +214,11 @@
         private System.Windows.Forms.Button TB1;
         private System.Windows.Forms.Button TB2;
         private System.Windows.Forms.Button TB3;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem File1;
+        private System.Windows.Forms.ToolStripMenuItem Extmenu1;
+        private System.Windows.Forms.ToolStripMenuItem AMenu1;
+        private System.Windows.Forms.ToolStripMenuItem GInfo1;
     }
 }
 

@@ -12,6 +12,7 @@ namespace MY_TIC_TAC_TOE
 {
     public partial class MainFORM1 : Form
     {
+        int turn_count = 0;
         char turn = 'X';
         public MainFORM1()
         {
@@ -20,6 +21,7 @@ namespace MY_TIC_TAC_TOE
 
         private void FB1_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (FB1.Text == "")
             {
                 FB1.Text = turn.ToString();
@@ -52,11 +54,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + FB1.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void FB2_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (FB2.Text == "")
             {
                 FB2.Text = turn.ToString();
@@ -82,11 +90,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + FB2.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void FB3_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (FB3.Text == "")
             {
                 FB3.Text = turn.ToString();
@@ -119,11 +133,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + FB3.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void SB1_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (SB1.Text == "")
             {
                 SB1.Text = turn.ToString();
@@ -149,11 +169,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + SB1.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void SB2_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (SB2.Text == "")
             {
                 SB2.Text = turn.ToString();
@@ -179,11 +205,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + SB2.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void SB3_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (SB3.Text == "")
             {
                 SB3.Text = turn.ToString();
@@ -209,11 +241,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + SB3.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void TB1_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (TB1.Text == "")
             {
                 TB1.Text = turn.ToString();
@@ -246,11 +284,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + TB1.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void TB2_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (TB2.Text == "")
             {
                 TB2.Text = turn.ToString();
@@ -276,11 +320,17 @@ namespace MY_TIC_TAC_TOE
                         MessageBox.Show("The winner is " + TB2.Text);
                     }
                 }
+                else
+                {
+                    if (turn_count == 9)
+                        MessageBox.Show("Draw!", "Bummer!");
+                }
             }
         }
 
         private void TB3_Click(object sender, EventArgs e)
         {
+            turn_count++;
             if (TB3.Text == "")
             {
                 TB3.Text = turn.ToString();
@@ -314,6 +364,22 @@ namespace MY_TIC_TAC_TOE
                     MessageBox.Show("The winner is " + TB3.Text);
                 }
             }
+            else
+            {
+                if (turn_count == 9)
+                    MessageBox.Show("Draw!", "Bummer!");
+            }
+        }
+
+        private void Extmenu1_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+
+        private void GInfo1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Created by Kylene Shane M. Varona from BSCOE 1-5", "TIC TAC TOE INFO");
         }
     }
 }
